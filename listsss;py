@@ -1,0 +1,19 @@
+list = ['Vitor','Roberto','Souza','LUANA']
+
+# ACESSANDO ELEMENTOS
+print(list[0])
+print(list[3])
+
+
+#Modificar elementos
+
+list[3] = 'Victoria'
+print(list)
+
+# adicionando valores 
+
+list.append('RENATO')
+print(list)
+
+# tamanho da lista 
+print(len(list))
